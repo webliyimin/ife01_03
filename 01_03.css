@@ -1,0 +1,48 @@
+    body{
+    	font-family: "微软雅黑";
+    }
+
+    span{
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .father{
+    	position: relative;
+    	margin: 30px auto ;
+    	width: 90%;
+    	background-color: #eee;
+    	border: 1px solid #999;
+    	height: 50%;
+    }   
+
+    .left{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 200px;
+        height: 30%;
+        border: 1px solid #999;
+    }
+
+    .center{
+    	
+        border: 1px solid #999;
+        margin-left: 240px;
+        margin-right: 160px;
+        margin-top: 20px;
+        height: 80%;
+    }
+
+    .right{
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        right: 20px;
+        width: 120px;
+        border: 1px solid #999;
+    }
+
+    .pic{
+    	padding: 5px 20px;
+    }
